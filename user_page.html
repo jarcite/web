@@ -3,12 +3,12 @@
 	<head>
 		
 		<meta name="robots" content="index,follow">
-		<title>호연사이트</title>
+		<title>호연사이트-유저페이지</title>
 		<link rel="shortcut icon" type="image/x-icon" href="rec/lab.ico" />
 		
 		<meta property="og:type" content="website">
-		<meta property="og:title" content="호연사이트">
-		<meta property="og:description" content="다양한 정보를 공유하는 호연 사이트 입니다">        
+		<meta property="og:title" content="호연사이트-유저">
+		<meta property="og:description" content="유저페이지 입니다">        
 		<meta property="og:image" content="rec/arcard.jpg">
 		<meta property="og:url" content="https://jarcite.github.io/web/">
 		
@@ -92,36 +92,25 @@
 		
 	</head>
 	<body  oncontextmenu="return false">
-		<div class="top" id="black" style="z-index : 10;">
-			<center>
-				<span id="bd"  style="color:white;">Hoyeon 호연</span>
-
-				<p id="ld" style="color:white;">
-					안녕하세요? 정호연 사이트에 오신 것을 환영합니다 다양한 정보를 나누세요!
-				</p>
-				<hr>
-				
-				<table>
-					<tr>
-						<td colspan="5"><a href="http://naver.com" id="ld" style="color:white;">네이버</a>
-						<td colspan="5"><a href="http://google.com" id="ld" style="color:white;">구글</a>
-						<td colspan="5"><a href="https://oc.ebssw.kr/" id="ld" style="color:white;">온라인 클래스 </a>
-					</tr>
-				</table>
-			</center>
+		<div id="ld">
+			<hr>
+			컴퓨터 : 안녕하세요? 너의 이름은 뭐니?ㅋㅋ<br>
+			당신 : 됐고, 이야기를 들려주세요
+			<hr>
 		</div>
-		<div>
-			<iframe class="video" width="478" height="269" src="https://www.youtube.com/embed/DPQB51ki93A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			
+		<h3 id="bd">코로나 예방 수칙</h3>
+		<div id="ld">
+			<ol>
+				<li>나갔다오거나 밥 먹을 때 등 위험에 직접적으로 노출될 위험이 있는 상황이 일어날 수 있을 때는 매번 손을 씻도록 합니다.</li>
+				<li>외출 시에는 마스크를 착용하여 눈과 코로 감염되는 비말감염의 위험에 노출되지 않도록 주의합니다.</li>
+				<li>특정 혹은 불특정 다수가 모인 집단 모임 혹은 공간에 최대한 기피하도록 합니다 또한 필요 이상의 외출을 자제합니다.</li>
+			</ol>
+			<hr>
 		</div>
-		<div id="ld" style="position:right;">
-			안녕하십니까? 저는 한빛중학교를 다니고 있는 정호연입니다<br>여러분 여기서 다양한 정보를 나누고 위기상황을 잘 대처하도록 합시다
-		</div>
-		<hr>
-		<form action="user_page.html" method="get" id="ld">
-			코로나 예방 수칙
-			<input type="text" placeholder="이름을 입력해주세요" name="user_name">				
-			<input type="submit" id="ld" value="입력" name="user_smt">
-		</form>
+		<center>
+			<a href="index.html">
+				<input type="button" id="ld" value="돌아가기" name="back_btn">
+			</a>
+		<center>
 	</body>
 </html>
